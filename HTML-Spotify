@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="logo.png" class="logo-img" alt="logo">
+        </div>
+        <div class="home_search">
+            <div class="home nav-grey center">
+                <img src="home-button.png" class="icon-grey home-img invert" alt="home">
+            </div>
+            <div class="search center nav-grey">
+                <img class="icon-grey search-img invert" src="search-2903.png" alt=""><input type="text"
+                    class="nav-grey inp-search" placeholder="What song do you want to play?">
+            </div>
+        </div>
+        <div class="other-essentials">
+            <div class="premium">
+                <button class="premium-btn">Explore Premium</button>
+            </div>
+            <div class="install-btn">
+                <button class="install-app-btn"><img class="dwnld-img invert" src="noun-download-arrow-443154.png"
+                        alt="">install App</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left bg-grey">
+            <div class="heading">
+                <h2>Your Library</h2>
+                <div class="add-btns">
+                    <button class="create-btn"><img class="invert" src="add-playlist.png" alt="">Create</button>
+                    <button class="expand-btn"><img src="expand.png" alt=""></button>
+                </div>
+            </div>
+            <div class="song-list">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="middle bg-grey">
+            <h2 class="heading-1">Popular Albums</h2>
+            <div class="card-container">
+
+                <div class="card-1">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="black">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <img src="Karan Aujla.jpg" class="cover-imgs" alt="Making Memories">
+                    <h2>Making Memories</h2>
+                    <p>Karan Aujla, Ikky</p>
+                </div>
+
+
+                <div class="card-1">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="black">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <img src="Sukha.jpg" class="cover-imgs" alt="Undisputed">
+                    <h2>Undisputed</h2>
+                    <p>Sukha</p>
+                </div>
+
+
+                <div class="card-1">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="black">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <img src="Sirra.jpg" class="cover-imgs" alt="Sirra">
+                    <h2>Sirra</h2>
+                    <p>Guru Randhawa</p>
+                </div>
+
+
+                <div class="card-1">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="black">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <img src="wavy.jpg" class="cover-imgs" alt="Wavy">
+                    <h2>Wavy</h2>
+                    <p>Karan Aujla</p>
+                </div>
+
+
+                <div class="card-1">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="black">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </button>
+                    <img src="AP-Dhillon.jpg" class="cover-imgs" alt="Thodi si Daaru">
+                    <h2>Thodi si Daaru</h2>
+                    <p>A.P. Dhillon, Shreya Ghoshal</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="multiplayer">
+        <div class="seekbar">
+            <div class="circle">
+                
+            </div>
+        </div>
+        <div class="song-info">
+
+        </div>
+        <div class="play-btns">
+            <button class="multi-obj"><img class="multi-img hover-inc" src="previous-stroke-rounded.svg"
+                    alt=""></button>
+            <button class="multi-obj"><img class="multi-img play-pause" src="play-circle-02-stroke-rounded (1).svg"
+                    alt=""></button>
+            <button class="multi-obj"><img class="multi-img hover-inc" src="next-stroke-rounded.svg" alt=""></button>
+        </div>
+        <div class="song-time">
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
